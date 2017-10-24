@@ -1,0 +1,7 @@
+// /bin/bash
+//------
+//example2
+//---------
+
+NAME="Daniel_Schmelter"
+echo -n "Hello $NAME. It is now"+date

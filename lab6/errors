@@ -1,0 +1,16 @@
+//lab6
+//Daniel Schmelter
+//dschmelt
+//this lab was about program testing, blackbox style. Also, I edited my infile several times, this is only the latest edition.
+
+//error1. In sentence 4, the output improperly pluralizes the word books when it should simply write book. Gramatic error.  
+
+//error2. When you print an invalid sentence code, it prints out "__ is a valid sentence code" It should say, "_ is not a valid sentence code" Output error.
+
+//error3.  The sentence 3 prints "last weekend" instead of "next weeken"  This is gramatically incorrect and a temporal error.
+
+// error4. The weather sentence does not print "cold"  instead it prints hot when you input 2 4. This is not the desired output and is therefore an error.
+
+
+
+

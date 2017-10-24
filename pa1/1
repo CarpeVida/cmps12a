@@ -1,0 +1,45 @@
+// Lawn.java
+// Daniel Schmelter
+// Dschmelt
+// pa1
+// Hi!  This program calculates lawn area.
+
+//Area
+
+import java.util.Scanner;
+
+class Lawn{
+
+   public static void main( String[] args ){
+     int length, width, lotarea;
+     Scanner sc = new Scanner(System.in);
+
+     System.out.print("Enter the length and width of the lot, in feet:");
+     width = sc.nextInt();
+     length = sc.nextInt();
+     lotarea = width*length;
+
+     int houselength, housewidth, housearea, lawnarea;
+     System.out.print("Enter the length and width of the house, in feet:");
+     housewidth = sc.nextInt();  
+     houselength = sc.nextInt();
+     housearea = housewidth*houselength;
+     lawnarea = lotarea - housearea;
+     System.out.print("The lawn area is ");
+     System.out.print(lawnarea);    
+     System.out.println(" square feet.");
+    
+     int rate, sraw, s, m, h;
+     System.out.print("Enter the mowing rate in square feet per second:");
+     rate = sc.nextInt();
+     sraw = lawnarea/rate; 
+     s =  Math.round(sraw); 
+     m = rate/60;
+     h = m/60;
+     System.out.print("The mowing time is ");
+     System.out.print(h)("hours")  
+     //(h) hours (m) minutes (rate) seconds.");
+     
+
+}
+}
